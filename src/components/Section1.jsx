@@ -112,7 +112,7 @@ const Section1 = () => {
 {/* Mobile Header Section */}
 <div className="md:hidden flex flex-col text-center">
   {/* Main Heading */}
-  <h2 className="text-xl font-[Montserrat] tracking-tight">
+  <h2 className="text-xl font-Montserrat tracking-tight">
     <span className="font-normal text-3xl">Today's </span>
     <span className="font-bold text-3xl">New Arrivals</span>
   </h2>
@@ -155,16 +155,16 @@ const Section1 = () => {
           <div className="flex flex-col justify-between p-3 flex-grow overflow-hidden">
             {/* Text & Description */}
             <div className="flex flex-col overflow-hidden">
-              <div className="text-[11px] font-[Montserrat] text-gray-500 leading-tight truncate">
+              <div className="text-[11px] font-Montserrat text-gray-500 leading-tight truncate">
                 {item.text}
               </div>
-              <div className="text-[13px] font-[Montserrat] leading-tight line-clamp-2">
+              <div className="text-[13px] font-Montserrat leading-tight line-clamp-2">
                 {item.description}
               </div>
             </div>
 
             {/* Price */}
-            <div className="text-[12px] text-[#94cb20] tracking-tighter font-[Montserrat] font-bold pb-[1px]">
+            <div className="text-[12px] text-[#94cb20] tracking-tighter font-Montserrat font-bold pb-[1px]">
               {item.price}
             </div>
           </div>
@@ -181,9 +181,9 @@ const Section1 = () => {
                 {/* Today's New Arrivals header inside the same container */}
                 <div className="flex justify-between items-center mb-0">
                   <h2 className="font-normal">
-                    <span className="text-black-700 text-3xl font-[Montserrat] tracking-tighter">Today's </span>
-                    <span className="font-[Montserrat] text-3xl font-bold tracking-tighter">New Arrivals </span> - 
-                    <span className="font-black font-[Montserrat] text-3xl tracking-tighter">7/25–7/31</span>
+                    <span className="text-black-700 text-3xl font-Montserrat tracking-tighter">Today's </span>
+                    <span className="font-Montserrat text-3xl font-bold tracking-tighter">New Arrivals </span> - 
+                    <span className="font-black font-Montserrat text-3xl tracking-tighter">7/25–7/31</span>
                   </h2>
                   <a href="#" className="text-black-500 text-xl">View all &gt;</a>
                 </div>
@@ -217,16 +217,16 @@ const Section1 = () => {
     <div className="flex flex-col justify-between p-2 flex-grow overflow-hidden">
       {/* Text & Description */}
       <div className="flex flex-col overflow-hidden">
-        <div className="text-[10px] font-[Montserrat] text-gray-500 leading-tight truncate">
+        <div className="text-[10px] font-Montserrat text-gray-500 leading-tight truncate">
           {item.text}
         </div>
-     <div className="text-[10px] font-[Montserrat] leading-tight line-clamp-2 mb-[0.001px]">
+     <div className="text-[10px] font-Montserrat leading-tight line-clamp-2 mb-[0.001px]">
   {item.description}
 </div>
 </div>
 
 {/* Price (always at bottom) */}
-<div className="text-[11px] text-[#94cb20] tarcking-tighter font-[Montserrat] font-bold pb-[4px]">
+<div className="text-[11px] text-[#94cb20] tarcking-tighter font-Montserrat font-bold pb-[4px]">
   {item.price}
 </div>
 
@@ -254,8 +254,8 @@ const Section1 = () => {
               <div className="w-full bg-white p-3 h-[24.8vh] text-sm relative mt-0">
                 <div className="flex justify-between items-center mb-0">
                   <h2 className="font-normal">
-                    <span className="text-black-700 text-3xl font-[Montserrat] font-bold tracking-tighter">Incoming</span> 
-                    <span className="font-[Montserrat] text-3xl"> Equipment</span> - 
+                    <span className="text-black-700 text-3xl font-Montserrat font-bold tracking-tighter">Incoming</span> 
+                    <span className="font-Montserrat text-3xl"> Equipment</span> - 
                     <span className="font-black text-3xl tracking-tighter">7/27–7/30</span>
                   </h2>
                   <a href="#" className="text-black-500 text-xl">View all &gt;</a>
@@ -263,7 +263,7 @@ const Section1 = () => {
                 <p className="text-gray-500 text-xs tracking-widest mb-1.5">Equipment that is coming soon</p>
 
                 <div className="overflow-x-auto">
-                  <table className="w-full text-left border border-black border-collapse font-[Montserrat] text-[10px]">
+                  <table className="w-full text-left border border-black border-collapse font-Montserrat text-[10px]">
                     <thead>
                       <tr className="border-b border-black bg-[#DCDDDE]">
                         <th className="py-1 px-2 border border-black font-bold text-xs text-center">SKU</th>

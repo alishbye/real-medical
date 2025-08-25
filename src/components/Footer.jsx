@@ -54,9 +54,10 @@ const Footer = () => {
           <h4 className="font-extrabold md:font-bold mb-2">Contact Us</h4>
           <div className="text-xs md:text-sm font-bold md:font-normal text-gray-500">
   <p>Corporate Office</p>
-  <p>9830 West 190th Street Suite M</p>
-  <p>Mokena, IL 60448</p>
-  <p>(708) 479-0062</p>
+  <p>Gawalior Society</p>
+  <p>Scheme-33</p>
+  <p>Karachi, Pakistan</p>
+  <p>+92 333 4656544</p>
 </div>
         </div>
 
@@ -103,7 +104,7 @@ const Footer = () => {
     <FaCcDiscover />
   </div>
   <p className="text-xs w-full text-center mt-4 md:mt-0 order-2 md:order-none">
-    © Copyright 2025 AA Medical. All Rights Reserved.
+    © Copyright 2025 Real Medical. All Rights Reserved.
   </p>
 </div>
       

@@ -14,7 +14,7 @@ export const Section5 = () => {
     <section className="w-full py-10">
       {/* Main Heading */}
       <div className="max-w-[1301px] mx-auto mt-0 md:mt-2">
-        <h2 className="text-center text-3xl md:text-5xl font-bold md:font-extrabold tracking-tight font-[Montserrat]">
+        <h2 className="text-center text-3xl md:text-5xl font-bold md:font-extrabold tracking-tight font-Montserrat">
           Featured Categories
         </h2>
       </div>
@@ -39,12 +39,18 @@ export const Section5 = () => {
       </div>
         <div className="max-w-[1301px] mx-auto mt-6 px-4">
         <p className="text-center text-medium text-gray-500 leading-tight">
-          AA Medical Store is your trusted source for premium new and used medical equipment. We specialize in offering a vast range of high-quality medical<br></br>devices, equipment, and supplies from trusted manufacturers—all at discounted and special prices. With over ten years of experience, we've built a<br></br> reputation for exceeding expectations by delivering tailored solutions and unparalleled service to doctors, clinics, and hospitals worldwide.
-          <br /><br />
-          At AA Medical Store, you'll find one of the largest online inventories of medical diagnostic equipment and devices available for purchase at everyday<br></br> low prices. Whether you're looking to buy or sell new or pre-owned medical equipment, our platform is designed to meet your needs.
-          <br /><br />
-          Choose AA Medical Store for a reliable, hassle-free experience in buying medical and surgical equipment. Discover why AA Medical is the trusted choice for<br></br>medical and surgical supplies today!
-        </p>
+       Real Medical Store serves as your reliable partner for premium new and pre-owned medical equipment. We provide an extensive selection of high-quality medical<br />
+  devices, equipment, and supplies from reputable manufacturers—all available at special discounted pricing. With more than a decade of industry experience, we've<br />
+  established ourselves as a company that consistently surpasses expectations by offering customized solutions and exceptional service to physicians, medical practices,<br />
+  and healthcare facilities globally.
+  <br /><br />
+  At Real Medical Store, we maintain one of the most comprehensive online inventories of medical diagnostic equipment and devices, all offered at consistently<br />
+  affordable rates. Our platform caters to both buyers and sellers of new and pre-owned medical equipment, ensuring we can meet all your healthcare equipment<br />
+  requirements.
+  <br /><br />
+  Select Real Medical Store for a dependable, straightforward experience when purchasing medical and surgical equipment. Find out why healthcare professionals<br />
+  consistently trust Real Medical for their medical and surgical supply needs!
+</p>
       </div>
     </section>
   );

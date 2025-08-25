@@ -83,16 +83,16 @@ const Section2 = () => {
                     {/* Content Section */}
                     <div className="flex flex-col justify-between p-2 flex-grow overflow-hidden relative h-[95px]">
                       <div className="flex flex-col overflow-hidden">
-                        <div className="text-xs font-[Montserrat] text-gray-600 leading-tight">
+                        <div className="text-xs font-Montserrat text-gray-600 leading-tight">
                           {item.text}
                         </div>
-                        <div className="text-sm font-semibold font-[Montserrat] leading-tight line-clamp-2">
+                        <div className="text-sm font-semibold font-Montserrat leading-tight line-clamp-2">
                           {item.description}
                         </div>
                       </div>
                       <div className="absolute left-2 bottom-0">
                         <div className="flex justify-between items-end gap-4">
-                          <div className={`text-sm tracking-tighter font-[Montserrat] font-bold ${index === 0 ? 'text-sm text-red-500' : 'text-[#94cb20]'}`}>
+                          <div className={`text-sm tracking-tighter font-Montserrat font-bold ${index === 0 ? 'text-sm text-red-500' : 'text-[#94cb20]'}`}>
                             {item.price}
                           </div>
                           {item.originalPrice && (
