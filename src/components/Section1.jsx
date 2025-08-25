@@ -73,7 +73,7 @@ const Section1 = () => {
       {/* Full-width gray container */}
       <div className="bg-gray-200 w-full h-[100vh] md:h-[78vh]">
         <div className="w-full bg-[#94cb20] text-white text-sm font-medium text-center py-2">
-          Welcome to AA Medical Store!
+          Welcome to Real Medical Store!
         </div>
         {/* Constrained inner container */}
         <div className="w-full mx-auto p-6">
