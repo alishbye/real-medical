@@ -48,22 +48,22 @@ export default function MobileNavbar() {
           <Menu className="w-9 h-9" />
         </button>
 
-{/* Logo */}
-<div className="flex items-center justify-center h-14">
-  <img 
-    src="logo.png" 
-    alt="Company Logo" 
-    className=" object-contain"
-  />
-</div>
+        {/* Logo */}
+        <div className="flex items-center justify-center h-14">
+          <img
+            src="logo.png"
+            alt="Company Logo"
+            className=" object-contain"
+          />
+        </div>
 
         {/* Icons */}
         <div className="flex items-center space-x-4">
-         
+
           <MessageCircle className="w-8 h-8 cursor-pointer" />
           <div className="relative cursor-pointer">
-             
-             
+
+
           </div>
         </div>
       </div>
@@ -104,12 +104,12 @@ export default function MobileNavbar() {
                 {/* Drawer Items */}
                 {menuItems.map((item, index) => (
                   <li key={index} className="border-b border-gray-200">
-                    <button 
+                    <button
                       className="w-full flex justify-between items-center py-3 px-2 hover:bg-gray-100 rounded"
                       onClick={() => setExpandedDrawer(expandedDrawer === index ? null : index)}
                     >
                       <span>{item.title}</span>
-                      <ChevronRight 
+                      <ChevronRight
                         className={`w-5 h-5 transition-transform ${expandedDrawer === index ? 'rotate-90' : ''}`}
                       />
                     </button>
