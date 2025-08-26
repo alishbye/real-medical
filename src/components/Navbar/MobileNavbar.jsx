@@ -48,24 +48,22 @@ export default function MobileNavbar() {
           <Menu className="w-9 h-9" />
         </button>
 
-        {/* Logo */}
-        <div className="flex items-center justify-center h-14">
-          <img 
-            src="logo.png" 
-            alt="Company Logo" 
-              className="h-10 w-10 object-contain transform scale-[6.5] translate-x-15"
-          />
-        </div>
+{/* Logo */}
+<div className="flex items-center justify-center h-14">
+  <img 
+    src="logo.png" 
+    alt="Company Logo" 
+    className=" object-contain"
+  />
+</div>
 
         {/* Icons */}
         <div className="flex items-center space-x-4">
          
           <MessageCircle className="w-8 h-8 cursor-pointer" />
           <div className="relative cursor-pointer">
-            <ShoppingBag className="w-8 h-8" />
-            <span className="absolute -top-2 -right-2 text-xs bg-black text-white rounded-full w-4 h-4 flex items-center justify-center">
-              0
-            </span>
+             
+             
           </div>
         </div>
       </div>
